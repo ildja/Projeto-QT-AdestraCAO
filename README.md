@@ -26,4 +26,4 @@ A princípio é importante que os dados inseridos como nome, responsável, adest
 
 Ah!! E se for digitado um animal que já tenha cadastro? Não será possível essa aplicação, pois o programa possui um algoritmo que detecta essa duplicidade, impedindo o cadastro.
 
-imagem duplicidade
+imagem duplicidadef
