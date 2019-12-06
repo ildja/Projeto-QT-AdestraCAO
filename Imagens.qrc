@@ -1,0 +1,15 @@
+<RCC>
+    <qresource prefix="/Imagens">
+        <file>husky-siberiano-2-768x512.png</file>
+        <file>../../../Imagens/501723-vm__dog_run_.jpg</file>
+        <file>../../../Imagens/adestracao.png</file>
+        <file>../../../Imagens/Imagem1.jpg</file>
+        <file>../../../Imagens/Imagem2.jpg</file>
+        <file>../../../Imagens/logo 2.png</file>
+        <file>../../../Imagens/logo a.png</file>
+        <file>../../../Imagens/pri.jpg</file>
+        <file>../../../Imagens/primeiro.png</file>
+        <file>../../../Imagens/segundo.png</file>
+        <file>../../../Imagens/terceiro.png</file>
+    </qresource>
+</RCC>

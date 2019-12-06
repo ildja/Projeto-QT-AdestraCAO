@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/Icones">
+        <file>salvar.png</file>
+        <file>sair.png</file>
+        <file>carregar.jpg</file>
+    </qresource>
+</RCC>
