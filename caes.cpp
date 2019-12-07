@@ -127,8 +127,15 @@ int Caes::getNota2() const
     return nota2;
 }
 
+
 float Caes::CalcularMedia() {
-    media =  ((nota1*5.0)+(nota2*5.0))/10.0;
+    media = (nota1 + nota2)/2;
+    //media =  ((nota1*5.0)+(nota2*5.0))/10.0;
+}
+
+void Caes::setMedia(int value)
+{
+    media = value;
 }
 
 double Caes::getMedia() const

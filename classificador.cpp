@@ -53,43 +53,60 @@ void Classificador::ordenarListaRaca() {
     std::stable_sort(lista.begin(), lista.end(), [] (Caes a, Caes b) { return a.getRaca() < b.getRaca();});
 }
 
+void Classificador::ordenarPodio()
+{
+    std::stable_sort(lista.begin(), lista.end(), [] (Caes a, Caes b) { return (a.getMedia() > b.getMedia()) and (a.getIdade() > b.getIdade());});
+}
+
+void Classificador::ordenarListaIdade()
+{
+    std::stable_sort(lista.begin(), lista.end(), [] (Caes a, Caes b) { return (a.getIdade() > b.getIdade());});
+}
+
+
 void Classificador::ordenarListaMedia(){
     std::stable_sort(lista.begin(), lista.end(), [] (Caes a, Caes b) { return a.getMedia() > b.getMedia();});
 }
 
 QString Classificador::primeirolugar()
 {
-    ordenarListaMedia();
+    //ordenarListaMedia();
+    ordenarPodio();
     return lista[0].getNome();
 }
 
 QString Classificador::Racaprimeirolugar()
 {
-    ordenarListaMedia();
+   // ordenarListaMedia();
+    ordenarPodio();
     return lista[0].getRaca();
 }
 
 QString Classificador::segundolugar()
 {
-    ordenarListaMedia();
+   // ordenarListaMedia();
+    ordenarPodio();
     return lista[1].getNome();
 }
 
 QString Classificador::Racasegundolugar()
 {
-    ordenarListaMedia();
+  //  ordenarListaMedia();
+    ordenarPodio();
     return lista[1].getRaca();
 }
 
 QString Classificador::terceirolugar()
 {
-    ordenarListaMedia();
+   // ordenarListaMedia();
+    ordenarPodio();
     return lista[2].getNome();
 }
 
 QString Classificador::Racaterceirolugar()
 {
-    ordenarListaMedia();
+   // ordenarListaMedia();
+    ordenarPodio();
     return lista[2].getRaca();
 }
 

@@ -39,12 +39,17 @@ void MainWindow::on_btn_inserirDados_clicked()
             c.setNota1(ui->txt_nota1->text().toInt());
             c.setNota2(ui->txt_nota2->text().toInt());
 
-            if(!a.NomeRepetido(a, c)){
-                a.btn_inserirDados(c);
-                inserirDadosNaTabela();
+            if(ui->txt_idade->text().toInt() != 0 or ui->txt_nota1->text().toInt() or ui->txt_nota2->text().toInt()){
 
+                if(!a.NomeRepetido(a, c)){
+                    a.btn_inserirDados(c);
+                    inserirDadosNaTabela();
+
+                }else{
+                    QMessageBox::warning(this, "Erro Duplicidade","Esse Cadastro já existe!");
+                    }
             }else{
-                QMessageBox::warning(this, "Erro Duplicidade","Esse Cadastro já existe!");
+                QMessageBox::information(this,"Erro Preenchimento","Preencha todos os dados");
             }
 
     }else{
@@ -153,14 +158,6 @@ void MainWindow::Carregar()
     if(Arquivo::carregarLista(arqname, a) == 1){
         QMessageBox::critical(this,"Arquivo","O arquivo já foi lido, favor cheque a tabela!");
     }else{
-        //ui->tabela_provarealizada->clearContents();
-        //on_actionLimpar_Tabela_triggered();
-//        for (int i = 0;i<a.size();i++) {
-//            ui->tabela_provarealizada->insertRow(i);
-//            inserirDadosNaTabela(a[i],i);
-//            QMessageBox::information(this,"Arquivo","O Arquivo foi lido, cheque a tabela!");
-//            }
-
         ui->tabela_provarealizada->setRowCount(0);
         inserirDadosNaTabela();
        }
@@ -186,9 +183,7 @@ void MainWindow::on_tabela_provarealizada_cellDoubleClicked(int row, int column)
             if(ok and !txt.isEmpty()){
                 a.mudarObjeto(row, column, txt);
                 inserirDadosNaTabela();
-            }else{
-                QMessageBox::critical(this, "Erro", "O objeto a ser editado está vazio.");
-                }
+            }
         }
     }
 
@@ -199,18 +194,18 @@ void MainWindow::on_tabela_provarealizada_cellDoubleClicked(int row, int column)
             QString txt = QInputDialog::getText(this, "Alterar Nota Avaliador 1", "Nota Avaliador 1", QLineEdit::Normal,"",&ok);
             if(ok and !txt.isEmpty()){
                 a.mudarObjeto(row, column, txt.toInt());
+
+
             }
 
             QString txt1 = QInputDialog::getText(this, "Alterar Nota Avaliador 2", "Nota Avaliador 2", QLineEdit::Normal,"",&ok);
             if(ok and !txt1.isEmpty()){
                 a.mudarObjeto(row, column + 1, txt.toInt());
-            }
 
-                inserirDadosNaTabela();
-
-        }else{
-            QMessageBox::critical(this, "Erro", "O objeto a ser editado está vazio.");
             }
+            a.find(row).CalcularMedia();
+            inserirDadosNaTabela();
+        }
     }
 
     if(column == 2){
@@ -221,9 +216,7 @@ void MainWindow::on_tabela_provarealizada_cellDoubleClicked(int row, int column)
             if(ok and !txt.isEmpty()){
             a.mudarObjeto(row, column, txt);
             inserirDadosNaTabela();
-            }else{
-                QMessageBox::critical(this, "Erro", "O objeto a ser editado está vazio.");
-                }
+            }
         }
     }
 
@@ -235,9 +228,7 @@ void MainWindow::on_tabela_provarealizada_cellDoubleClicked(int row, int column)
             if(ok and !txt.isEmpty()){
             a.mudarObjeto(row, column, txt.toInt());
             inserirDadosNaTabela();          
-            }else{
-                QMessageBox::critical(this, "Erro", "O objeto a ser editado está vazio.");
-                }
+            }
         }
     }
 
@@ -249,9 +240,7 @@ void MainWindow::on_tabela_provarealizada_cellDoubleClicked(int row, int column)
             if(ok and !txt.isEmpty()){
             a.mudarObjeto(row, column, txt);
             inserirDadosNaTabela();          
-            }else{
-                QMessageBox::critical(this, "Erro", "O objeto a ser editado está vazio.");
-                }
+            }
         }
     }
 
@@ -263,9 +252,7 @@ void MainWindow::on_tabela_provarealizada_cellDoubleClicked(int row, int column)
             if(ok and !txt.isEmpty()){
             a.mudarObjeto(row, column, txt);
             inserirDadosNaTabela();
-            }else{
-                QMessageBox::critical(this, "Erro", "O objeto a ser editado está vazio.");
-                }
+            }
         }
     }
 
@@ -277,15 +264,17 @@ void MainWindow::on_tabela_provarealizada_cellDoubleClicked(int row, int column)
             if(ok and !txt.isEmpty()){
             a.mudarObjeto(row, column, txt);            
             inserirDadosNaTabela();
-            }else{
-                QMessageBox::critical(this, "Erro", "O objeto a ser editado está vazio.");
-                }
+            }
         }
     }
 }
 
 void MainWindow::on_btn_atualizar_clicked()
 {
+    a.ordenarListaIdade();
+    a.ordenarListaMedia();
+
+
     int Feminino, Masculino;
 
     std::tie(Feminino, Masculino)= a.contadorGenero(a);
@@ -320,7 +309,7 @@ void MainWindow::on_ExcluirDados_clicked()
     if(resp == QMessageBox::Yes){
         bool ok;
 
-        QString txt = QInputDialog::getText(this, "Excluir Itens", "Digite o nome do cachorro(igualmente a como foi cadastrado) para excluí-lo", QLineEdit::Normal,"",&ok);
+        QString txt = QInputDialog::getText(this, "Excluir Itens", "Digite o nome do cachorro(igual a como foi cadastrado) para excluí-lo", QLineEdit::Normal,"",&ok);
 
         bool apagarNome = false;
         int i = 0;

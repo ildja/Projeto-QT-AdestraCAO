@@ -31,6 +31,7 @@ public:
 
     Classificador a;
 
+
 private slots:
     void on_btn_inserirDados_clicked();
     void on_btn_limpardados_clicked();
@@ -42,6 +43,7 @@ private slots:
     void on_actionSair_triggered();
     void on_actionLimpar_Tabela_triggered();
     void on_ExcluirDados_clicked();
+
 
 private:
     Ui::MainWindow *ui;

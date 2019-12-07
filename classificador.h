@@ -30,6 +30,8 @@ public:
     void ordenarListaMedia ();
     void ordenarListaNome ();
     void ordenarListaRaca();
+    void ordenarPodio();
+    void ordenarListaIdade();
     double getMediaIdade();
 
     QString primeirolugar();

@@ -370,11 +370,6 @@ color: rgb(0, 0, 0);</string>
        </property>
        <item>
         <property name="text">
-         <string>Selecione o sexo</string>
-        </property>
-       </item>
-       <item>
-        <property name="text">
          <string>Feminino</string>
         </property>
        </item>
@@ -415,207 +410,102 @@ color: rgb(0, 0, 0);</string>
        </property>
        <item>
         <property name="text">
-         <string>Selecione a raça</string>
-        </property>
-       </item>
-       <item>
-        <property name="text">
          <string>Akita</string>
-        </property>
-        <property name="icon">
-         <iconset>
-          <normalon>:/Icones/Imagens Prints/akita-1-768x432.jpg</normalon>
-         </iconset>
         </property>
        </item>
        <item>
         <property name="text">
          <string>American staffordshire terrier</string>
         </property>
-        <property name="icon">
-         <iconset>
-          <normalon>:/Icones/Imagens Prints/american-staffordshire-terrier-6.png</normalon>
-         </iconset>
-        </property>
        </item>
        <item>
         <property name="text">
          <string>Basset hound</string>
-        </property>
-        <property name="icon">
-         <iconset>
-          <normalon>:/Icones/Imagens Prints/raça-de-cachorro-basset-768x512.png</normalon>
-         </iconset>
         </property>
        </item>
        <item>
         <property name="text">
          <string>Beagle</string>
         </property>
-        <property name="icon">
-         <iconset>
-          <normalon>:/Icones/Imagens Prints/Beagle-6-768x576.jpg</normalon>
-         </iconset>
-        </property>
        </item>
        <item>
         <property name="text">
          <string>Bichon frisé</string>
-        </property>
-        <property name="icon">
-         <iconset>
-          <normalon>:/Icones/Imagens Prints/bichon.jpg</normalon>
-         </iconset>
         </property>
        </item>
        <item>
         <property name="text">
          <string>Boiadeiro australiano</string>
         </property>
-        <property name="icon">
-         <iconset>
-          <normalon>:/Icones/Imagens Prints/boiadeiroaustraliano.jpg</normalon>
-         </iconset>
-        </property>
        </item>
        <item>
         <property name="text">
          <string>Border collie</string>
-        </property>
-        <property name="icon">
-         <iconset>
-          <normalon>:/Icones/Imagens Prints/Border-Collie-2-768x576.jpg</normalon>
-         </iconset>
         </property>
        </item>
        <item>
         <property name="text">
          <string>Boston terrier</string>
         </property>
-        <property name="icon">
-         <iconset>
-          <normalon>:/Icones/Imagens Prints/Bostonterrier.jpg</normalon>
-         </iconset>
-        </property>
        </item>
        <item>
         <property name="text">
          <string>Boxer</string>
-        </property>
-        <property name="icon">
-         <iconset>
-          <normalon>:/Icones/Imagens Prints/boxer.png</normalon>
-         </iconset>
         </property>
        </item>
        <item>
         <property name="text">
          <string>Buldogue francês</string>
         </property>
-        <property name="icon">
-         <iconset>
-          <normalon>:/Icones/Imagens Prints/Buldogue-france.jpg</normalon>
-         </iconset>
-        </property>
        </item>
        <item>
         <property name="text">
          <string>Buldogue inglês</string>
-        </property>
-        <property name="icon">
-         <iconset>
-          <normalon>:/Icones/Imagens Prints/buldogue-ingle.jpg</normalon>
-         </iconset>
         </property>
        </item>
        <item>
         <property name="text">
          <string>Bull terrier</string>
         </property>
-        <property name="icon">
-         <iconset>
-          <normalon>:/Icones/Imagens Prints/bullterrier.jpg</normalon>
-         </iconset>
-        </property>
        </item>
        <item>
         <property name="text">
          <string>Cane corso</string>
-        </property>
-        <property name="icon">
-         <iconset>
-          <normalon>:/Icones/Imagens Prints/cane_corso_preto-768x973.jpg</normalon>
-         </iconset>
         </property>
        </item>
        <item>
         <property name="text">
          <string>Cavalier king charles spaniel</string>
         </property>
-        <property name="icon">
-         <iconset>
-          <normalon>:/Icones/Imagens Prints/cavalierking.jpg</normalon>
-         </iconset>
-        </property>
        </item>
        <item>
         <property name="text">
          <string>Chihuahua</string>
-        </property>
-        <property name="icon">
-         <iconset>
-          <normalon>:/Icones/Imagens Prints/Chihuahua.jpg</normalon>
-         </iconset>
         </property>
        </item>
        <item>
         <property name="text">
          <string>Chow chow</string>
         </property>
-        <property name="icon">
-         <iconset>
-          <normalon>:/Icones/Imagens Prints/Chow-Chow.jpg</normalon>
-         </iconset>
-        </property>
        </item>
        <item>
         <property name="text">
          <string>Cocker spaniel inglês</string>
-        </property>
-        <property name="icon">
-         <iconset>
-          <normalon>:/Icones/Imagens Prints/cockersapniel.jpg</normalon>
-         </iconset>
         </property>
        </item>
        <item>
         <property name="text">
          <string>Dachshund</string>
         </property>
-        <property name="icon">
-         <iconset>
-          <normalon>:/Icones/Imagens Prints/dachshund.jpg</normalon>
-         </iconset>
-        </property>
        </item>
        <item>
         <property name="text">
          <string>Dálmata</string>
         </property>
-        <property name="icon">
-         <iconset>
-          <normalon>:/Icones/Imagens Prints/dalmata.jpg</normalon>
-         </iconset>
-        </property>
        </item>
        <item>
         <property name="text">
          <string>Doberman</string>
-        </property>
-        <property name="icon">
-         <iconset>
-          <normalon>:/Icones/Imagens Prints/doberman.jpg</normalon>
-         </iconset>
         </property>
        </item>
        <item>
@@ -623,308 +513,157 @@ color: rgb(0, 0, 0);</string>
          <string>Dogo argentino</string>
         </property>
         <property name="icon">
-         <iconset>
-          <normalon>:/Icones/Imagens Prints/dogo.jpg</normalon>
-         </iconset>
+         <iconset theme="100"/>
         </property>
        </item>
        <item>
         <property name="text">
          <string>Dogue alemão</string>
         </property>
-        <property name="icon">
-         <iconset>
-          <normalon>:/Icones/Imagens Prints/doguealemao.jpg</normalon>
-         </iconset>
-        </property>
        </item>
        <item>
         <property name="text">
          <string>Fila brasileiro</string>
-        </property>
-        <property name="icon">
-         <iconset>
-          <normalon>:/Icones/Imagens Prints/fila_brasileiro3-768x512.jpg</normalon>
-         </iconset>
         </property>
        </item>
        <item>
         <property name="text">
          <string>Golden retriever</string>
         </property>
-        <property name="icon">
-         <iconset>
-          <normalon>:/Icones/Imagens Prints/Golden-destaque-768x432.gif</normalon>
-         </iconset>
-        </property>
        </item>
        <item>
         <property name="text">
          <string>Husky siberiano</string>
-        </property>
-        <property name="icon">
-         <iconset resource="Imagens.qrc">
-          <normaloff>:/Imagens/husky-siberiano-2-768x512.png</normaloff>:/Imagens/husky-siberiano-2-768x512.png</iconset>
         </property>
        </item>
        <item>
         <property name="text">
          <string>Jack russell terrier</string>
         </property>
-        <property name="icon">
-         <iconset>
-          <normalon>:/Icones/Imagens Prints/jackrussell.jpg</normalon>
-         </iconset>
-        </property>
        </item>
        <item>
         <property name="text">
          <string>Labrador retriever</string>
-        </property>
-        <property name="icon">
-         <iconset>
-          <normalon>:/Icones/Imagens Prints/Labrador-6-768x576.jpg</normalon>
-         </iconset>
         </property>
        </item>
        <item>
         <property name="text">
          <string>Lhasa apso</string>
         </property>
-        <property name="icon">
-         <iconset>
-          <normalon>:/Icones/Imagens Prints/Lhasa-6-768x576.jpg</normalon>
-         </iconset>
-        </property>
        </item>
        <item>
         <property name="text">
          <string>Lulu da Pomerânia</string>
-        </property>
-        <property name="icon">
-         <iconset>
-          <normalon>:/Icones/Imagens Prints/lulu.jpg</normalon>
-         </iconset>
         </property>
        </item>
        <item>
         <property name="text">
          <string>Maltês</string>
         </property>
-        <property name="icon">
-         <iconset>
-          <normalon>:/Icones/Imagens Prints/maltes.jpg</normalon>
-         </iconset>
-        </property>
        </item>
        <item>
         <property name="text">
          <string>Mastiff inglês</string>
-        </property>
-        <property name="icon">
-         <iconset>
-          <normalon>:/Icones/Imagens Prints/mastiff4-768x491.jpg</normalon>
-         </iconset>
         </property>
        </item>
        <item>
         <property name="text">
          <string>Mastim tibetano</string>
         </property>
-        <property name="icon">
-         <iconset>
-          <normalon>:/Icones/Imagens Prints/mastim.jpg</normalon>
-         </iconset>
-        </property>
        </item>
        <item>
         <property name="text">
          <string>Pastor alemão</string>
-        </property>
-        <property name="icon">
-         <iconset>
-          <normalon>:/Icones/Imagens Prints/pastoralemao.jpg</normalon>
-         </iconset>
         </property>
        </item>
        <item>
         <property name="text">
          <string>Pastor australiano</string>
         </property>
-        <property name="icon">
-         <iconset>
-          <normalon>:/Icones/Imagens Prints/pastorautraliano.jpg</normalon>
-         </iconset>
-        </property>
        </item>
        <item>
         <property name="text">
          <string>Pastor de Shetland</string>
-        </property>
-        <property name="icon">
-         <iconset>
-          <normalon>:/Icones/Imagens Prints/pastor-de-shetland-8-768x512.png</normalon>
-         </iconset>
         </property>
        </item>
        <item>
         <property name="text">
          <string>Pastor Maremano Abruzes</string>
         </property>
-        <property name="icon">
-         <iconset>
-          <normalon>:/Icones/Imagens Prints/maremano-5-768x514.jpg</normalon>
-         </iconset>
-        </property>
        </item>
        <item>
         <property name="text">
          <string>Pequinês</string>
-        </property>
-        <property name="icon">
-         <iconset>
-          <normalon>:/Icones/Imagens Prints/pequines.jpg</normalon>
-         </iconset>
         </property>
        </item>
        <item>
         <property name="text">
          <string>Pinscher miniatura</string>
         </property>
-        <property name="icon">
-         <iconset>
-          <normalon>:/Icones/Imagens Prints/Pinscher-768x576.jpg</normalon>
-         </iconset>
-        </property>
        </item>
        <item>
         <property name="text">
          <string>Pit bull</string>
-        </property>
-        <property name="icon">
-         <iconset>
-          <normalon>:/Icones/Imagens Prints/pit bull.jpg</normalon>
-         </iconset>
         </property>
        </item>
        <item>
         <property name="text">
          <string>Poodle</string>
         </property>
-        <property name="icon">
-         <iconset>
-          <normalon>:/Icones/Imagens Prints/Poodle-4-768x576.jpg</normalon>
-         </iconset>
-        </property>
        </item>
        <item>
         <property name="text">
          <string>Pug</string>
-        </property>
-        <property name="icon">
-         <iconset>
-          <normalon>:/Icones/Imagens Prints/pug.jpg</normalon>
-         </iconset>
         </property>
        </item>
        <item>
         <property name="text">
          <string>Rottweiler</string>
         </property>
-        <property name="icon">
-         <iconset>
-          <normalon>:/Icones/Imagens Prints/rottweiler.jpg</normalon>
-         </iconset>
-        </property>
        </item>
        <item>
         <property name="text">
          <string>Samoieda</string>
-        </property>
-        <property name="icon">
-         <iconset>
-          <normalon>:/Icones/Imagens Prints/Samoieda-2-768x512.jpg</normalon>
-         </iconset>
         </property>
        </item>
        <item>
         <property name="text">
          <string>Schnauzer</string>
         </property>
-        <property name="icon">
-         <iconset>
-          <normalon>:/Icones/Imagens Prints/Schnauzer-2-768x576.jpg</normalon>
-         </iconset>
-        </property>
        </item>
        <item>
         <property name="text">
          <string>Shiba</string>
-        </property>
-        <property name="icon">
-         <iconset>
-          <normalon>:/Icones/Imagens Prints/shiba.jpg</normalon>
-         </iconset>
         </property>
        </item>
        <item>
         <property name="text">
          <string>Shih tzu</string>
         </property>
-        <property name="icon">
-         <iconset>
-          <normalon>:/Icones/Imagens Prints/shih-tzu-3-768x432.jpg</normalon>
-         </iconset>
-        </property>
        </item>
        <item>
         <property name="text">
          <string>Staffordshire bull terrier</string>
-        </property>
-        <property name="icon">
-         <iconset>
-          <normalon>:/Icones/Imagens Prints/staffordshire-na-grama-768x512.png</normalon>
-         </iconset>
         </property>
        </item>
        <item>
         <property name="text">
          <string>Vira-lata</string>
         </property>
-        <property name="icon">
-         <iconset>
-          <normalon>:/Icones/Imagens Prints/srd-768x511.jpg</normalon>
-         </iconset>
-        </property>
        </item>
        <item>
         <property name="text">
          <string>Weimaraner</string>
-        </property>
-        <property name="icon">
-         <iconset>
-          <normalon>:/Icones/Imagens Prints/weimaraner.jpg</normalon>
-         </iconset>
         </property>
        </item>
        <item>
         <property name="text">
          <string>Whippet</string>
         </property>
-        <property name="icon">
-         <iconset>
-          <normalon>:/Icones/Imagens Prints/whippet-6-768x512.png</normalon>
-         </iconset>
-        </property>
        </item>
        <item>
         <property name="text">
          <string>Yorkshire terrier</string>
-        </property>
-        <property name="icon">
-         <iconset>
-          <normalon>:/Icones/Imagens Prints/yorkshire.jpg</normalon>
-         </iconset>
         </property>
        </item>
       </widget>
@@ -1163,9 +902,9 @@ color: rgb(0, 0, 0);</string>
        <widget class="QLabel" name="logo_imagem">
         <property name="geometry">
          <rect>
-          <x>620</x>
+          <x>610</x>
           <y>20</y>
-          <width>601</width>
+          <width>611</width>
           <height>281</height>
          </rect>
         </property>
@@ -1719,8 +1458,6 @@ color: rgb(0, 0, 0);</string>
    </property>
   </action>
  </widget>
- <resources>
-  <include location="Imagens.qrc"/>
- </resources>
+ <resources/>
  <connections/>
 </ui>
