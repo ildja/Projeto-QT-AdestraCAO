@@ -39,8 +39,6 @@ void MainWindow::on_btn_inserirDados_clicked()
             c.setNota1(ui->txt_nota1->text().toInt());
             c.setNota2(ui->txt_nota2->text().toInt());
 
-
-
             if(!a.NomeRepetido(a, c)){
                 a.btn_inserirDados(c);
                 inserirDadosNaTabela();
@@ -66,17 +64,14 @@ void MainWindow::on_btn_inserirDados_clicked()
         ui->txt_nota2->setValue(0);
         ui->txt_senha_acesso->clear();
 }
-void MainWindow::inserirDadosNaTabela()
 
+void MainWindow::inserirDadosNaTabela()
 {
     ui->tabela_provarealizada->setRowCount(0);
 
     int linhas = 0;
 
-
-
     QVector<Caes> temp = a.getLista();
-
 
     for(auto preencher : temp){
 
@@ -127,8 +122,8 @@ void MainWindow::on_btn_ordenar_clicked()
            inserirDadosNaTabela();
 
     }else{
-           QMessageBox::warning(this,"Erro","Selecione uma das opções!");
-           }
+          QMessageBox::warning(this,"Erro","Selecione uma das opções!");
+         }
 }
 
 void MainWindow::on_actionSalvar_triggered()
@@ -174,9 +169,6 @@ void MainWindow::Carregar()
 void MainWindow::on_actionLimpar_Tabela_triggered()
 {
     ui->tabela_provarealizada->setRowCount(0);
-//    int qtdeLinhas = ui->tabela_provarealizada->rowCount();
-//    for(int i = 0; i < qtdeLinhas ; i++)
-//    ui->tabela_provarealizada->removeRow(0);
 }
 
 void MainWindow::on_actionSair_triggered()
@@ -188,121 +180,109 @@ void MainWindow::on_tabela_provarealizada_cellDoubleClicked(int row, int column)
 {
     if(column == 0){
         QMessageBox::StandardButton resp = QMessageBox::question(this, "Editar Itens", "Você deseja editar este item?");
-    if(resp == QMessageBox::Yes){
-        bool ok;
-        QString txt = QInputDialog::getText(this, "Alterar Nome", "Digite o novo Nome", QLineEdit::Normal,"",&ok);
-        if(ok and !txt.isEmpty()){
-
-            a.mudarObjeto(row, column, txt);
-          //  a.eraseNome(txt);
-            inserirDadosNaTabela();
-        }else{
-           QMessageBox::critical(this, "Erro", "O objeto a ser editado está vazio.");
-           }
+        if(resp == QMessageBox::Yes){
+            bool ok;
+            QString txt = QInputDialog::getText(this, "Alterar Nome", "Digite o novo Nome", QLineEdit::Normal,"",&ok);
+            if(ok and !txt.isEmpty()){
+                a.mudarObjeto(row, column, txt);
+                inserirDadosNaTabela();
+            }else{
+                QMessageBox::critical(this, "Erro", "O objeto a ser editado está vazio.");
+                }
         }
     }
 
     if(column == 1){
-            QMessageBox::StandardButton resp = QMessageBox::question(this, "Editar Itens", "Você deseja editar este item?");
-           if(resp == QMessageBox::Yes){
-               bool ok;
-               QString txt = QInputDialog::getText(this, "Alterar Nota Avaliador 1", "Nota Avaliador 1", QLineEdit::Normal,"",&ok);
-               if(ok and !txt.isEmpty()){
-                   qDebug() << "linha" << row;
-                   a.mudarObjeto(row, column, txt.toInt());
+        QMessageBox::StandardButton resp = QMessageBox::question(this, "Editar Itens", "Você deseja editar este item?");
+        if(resp == QMessageBox::Yes){
+            bool ok;
+            QString txt = QInputDialog::getText(this, "Alterar Nota Avaliador 1", "Nota Avaliador 1", QLineEdit::Normal,"",&ok);
+            if(ok and !txt.isEmpty()){
+                a.mudarObjeto(row, column, txt.toInt());
+            }
 
-               }
+            QString txt1 = QInputDialog::getText(this, "Alterar Nota Avaliador 2", "Nota Avaliador 2", QLineEdit::Normal,"",&ok);
+            if(ok and !txt1.isEmpty()){
+                a.mudarObjeto(row, column + 1, txt.toInt());
+            }
 
-               QString txt1 = QInputDialog::getText(this, "Alterar Nota Avaliador 2", "Nota Avaliador 2", QLineEdit::Normal,"",&ok);
-               if(ok and !txt1.isEmpty()){
-                   a.mudarObjeto(row, column + 1, txt.toInt());
+                inserirDadosNaTabela();
 
-               }
-
-                  // a.eraseNome(txt);
-               inserirDadosNaTabela();
-           }else{
-              QMessageBox::critical(this, "Erro", "O objeto a ser editado está vazio.");
-               }
-           }
+        }else{
+            QMessageBox::critical(this, "Erro", "O objeto a ser editado está vazio.");
+            }
+    }
 
     if(column == 2){
         QMessageBox::StandardButton resp = QMessageBox::question(this, "Editar Itens", "Você deseja editar este item?");
-    if(resp == QMessageBox::Yes){
-        bool ok;
-        QString txt = QInputDialog::getText(this, "Alterar Raça", "Digite a Raça", QLineEdit::Normal,"",&ok);
-        if(ok and !txt.isEmpty()){
-
+        if(resp == QMessageBox::Yes){
+            bool ok;
+            QString txt = QInputDialog::getText(this, "Alterar Raça", "Digite a Raça", QLineEdit::Normal,"",&ok);
+            if(ok and !txt.isEmpty()){
             a.mudarObjeto(row, column, txt);
-            //a.eraseNome(txt);
-
             inserirDadosNaTabela();
-        }else{
-           QMessageBox::critical(this, "Erro", "O objeto a ser editado está vazio.");
-            }
+            }else{
+                QMessageBox::critical(this, "Erro", "O objeto a ser editado está vazio.");
+                }
         }
     }
+
     if(column == 3){
         QMessageBox::StandardButton resp = QMessageBox::question(this, "Editar Itens", "Você deseja editar este item?");
-    if(resp == QMessageBox::Yes){
-        bool ok;
-        QString txt = QInputDialog::getText(this, "Alterar Idade", "Digite a idade:",QLineEdit::Normal,"",&ok);
-        if(ok and !txt.isEmpty()){
-
+        if(resp == QMessageBox::Yes){
+            bool ok;
+            QString txt = QInputDialog::getText(this, "Alterar Idade", "Digite a idade:",QLineEdit::Normal,"",&ok);
+            if(ok and !txt.isEmpty()){
             a.mudarObjeto(row, column, txt.toInt());
-            //a.eraseNome(txt);
-            inserirDadosNaTabela();
-        }else{
-           QMessageBox::critical(this, "Erro", "O objeto a ser editado está vazio.");
-            }
+            inserirDadosNaTabela();          
+            }else{
+                QMessageBox::critical(this, "Erro", "O objeto a ser editado está vazio.");
+                }
         }
     }
+
     if(column == 4){
         QMessageBox::StandardButton resp = QMessageBox::question(this, "Editar Itens", "Você deseja editar este item?");
-    if(resp == QMessageBox::Yes){
-        bool ok;
-        QString txt = QInputDialog::getText(this, "Alterar Sexo", "Digite o sexo:", QLineEdit::Normal,"",&ok);
-        if(ok and !txt.isEmpty()){
-
+        if(resp == QMessageBox::Yes){
+            bool ok;
+            QString txt = QInputDialog::getText(this, "Alterar Sexo", "Digite o sexo:", QLineEdit::Normal,"",&ok);
+            if(ok and !txt.isEmpty()){
             a.mudarObjeto(row, column, txt);
-//            a.eraseNome(txt);
-            inserirDadosNaTabela();
-        }else{
-           QMessageBox::critical(this, "Erro", "O objeto a ser editado está vazio.");
-            }
+            inserirDadosNaTabela();          
+            }else{
+                QMessageBox::critical(this, "Erro", "O objeto a ser editado está vazio.");
+                }
         }
     }
+
     if(column == 5){
         QMessageBox::StandardButton resp = QMessageBox::question(this, "Editar Itens", "Você deseja editar este item?");
-    if(resp == QMessageBox::Yes){
-        bool ok;
-        QString txt = QInputDialog::getText(this, "Alterar Destino", "Digite o novo destino", QLineEdit::Normal,"",&ok);
-        if(ok and !txt.isEmpty()){
-
+        if(resp == QMessageBox::Yes){
+            bool ok;
+            QString txt = QInputDialog::getText(this, "Alterar Destino", "Digite o novo destino", QLineEdit::Normal,"",&ok);
+            if(ok and !txt.isEmpty()){
             a.mudarObjeto(row, column, txt);
-            //a.eraseNome(txt);
             inserirDadosNaTabela();
-        }else{
-           QMessageBox::critical(this, "Erro", "O objeto a ser editado está vazio.");
-            }
+            }else{
+                QMessageBox::critical(this, "Erro", "O objeto a ser editado está vazio.");
+                }
         }
     }
+
     if(column == 6){
         QMessageBox::StandardButton resp = QMessageBox::question(this, "Editar Itens", "Você deseja editar este item?");
-    if(resp == QMessageBox::Yes){
-        bool ok;
-        QString txt = QInputDialog::getText(this, "Alterar Responsável", "Digite o responsável", QLineEdit::Normal,"",&ok);
-        if(ok and !txt.isEmpty()){
-            a.mudarObjeto(row, column, txt);
-            //a.eraseNome(txt);
+        if(resp == QMessageBox::Yes){
+            bool ok;
+            QString txt = QInputDialog::getText(this, "Alterar Responsável", "Digite o responsável", QLineEdit::Normal,"",&ok);
+            if(ok and !txt.isEmpty()){
+            a.mudarObjeto(row, column, txt);            
             inserirDadosNaTabela();
-        }else{
-           QMessageBox::critical(this, "Erro", "O objeto a ser editado está vazio.");
-            }
+            }else{
+                QMessageBox::critical(this, "Erro", "O objeto a ser editado está vazio.");
+                }
         }
     }
 }
-
 
 void MainWindow::on_btn_atualizar_clicked()
 {
@@ -330,7 +310,6 @@ void MainWindow::on_btn_atualizar_clicked()
           ui->generofeminino->setText(QString::number(Feminino));
           ui->generomasculino->setText(QString::number(Masculino));
           ui->txt_mediaidade->setText(QString::number(a.getMediaIdade()));
-
          }
         }
 }
@@ -341,15 +320,13 @@ void MainWindow::on_ExcluirDados_clicked()
     if(resp == QMessageBox::Yes){
         bool ok;
 
-        QString txt = QInputDialog::getText(this, "Excluir Itens", "Digite o título do livro(igualmente a como foi cadastrado) para excluí-lo", QLineEdit::Normal,"",&ok);
+        QString txt = QInputDialog::getText(this, "Excluir Itens", "Digite o nome do cachorro(igualmente a como foi cadastrado) para excluí-lo", QLineEdit::Normal,"",&ok);
 
         bool apagarNome = false;
         int i = 0;
 
         for(auto proc : a.getLista()){
-
             if(proc.getNome() == txt){
-
                 a.apagarNome(i);
                 apagarNome = true;
                 break;
@@ -366,20 +343,12 @@ void MainWindow::on_ExcluirDados_clicked()
         }
 
         if(apagarNome){
-
             inserirDadosNaTabela();
-
-            //            ui->tabela_provarealizada->setRowCount(0);
-//            for(int i=0;i<a.size();i++){
-//            ui->tabela_provarealizada->insertRow(i);
-//            inserirNaTabela(a[i],i);
-            //}
         }
     }
 }
 
 void MainWindow::inserirNaTabela(Caes k, int linhas)
-
 {
     ui->tabela_provarealizada->setItem(linhas,0, new QTableWidgetItem(k.getNome()));
     ui->tabela_provarealizada->setItem(linhas,1, new QTableWidgetItem(QString::number(k.getMedia())));

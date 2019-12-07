@@ -53,7 +53,6 @@ public:
 
     float CalcularMedia();
 
-
     double getMedia() const;
 
 signals:

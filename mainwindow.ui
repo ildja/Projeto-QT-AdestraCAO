@@ -410,6 +410,9 @@ color: rgb(0, 0, 0);</string>
          <height>24</height>
         </rect>
        </property>
+       <property name="maxVisibleItems">
+        <number>52</number>
+       </property>
        <item>
         <property name="text">
          <string>Selecione a raça</string>
@@ -419,255 +422,509 @@ color: rgb(0, 0, 0);</string>
         <property name="text">
          <string>Akita</string>
         </property>
+        <property name="icon">
+         <iconset>
+          <normalon>:/Icones/Imagens Prints/akita-1-768x432.jpg</normalon>
+         </iconset>
+        </property>
        </item>
        <item>
         <property name="text">
          <string>American staffordshire terrier</string>
+        </property>
+        <property name="icon">
+         <iconset>
+          <normalon>:/Icones/Imagens Prints/american-staffordshire-terrier-6.png</normalon>
+         </iconset>
         </property>
        </item>
        <item>
         <property name="text">
          <string>Basset hound</string>
         </property>
+        <property name="icon">
+         <iconset>
+          <normalon>:/Icones/Imagens Prints/raça-de-cachorro-basset-768x512.png</normalon>
+         </iconset>
+        </property>
        </item>
        <item>
         <property name="text">
          <string>Beagle</string>
+        </property>
+        <property name="icon">
+         <iconset>
+          <normalon>:/Icones/Imagens Prints/Beagle-6-768x576.jpg</normalon>
+         </iconset>
         </property>
        </item>
        <item>
         <property name="text">
          <string>Bichon frisé</string>
         </property>
+        <property name="icon">
+         <iconset>
+          <normalon>:/Icones/Imagens Prints/bichon.jpg</normalon>
+         </iconset>
+        </property>
        </item>
        <item>
         <property name="text">
          <string>Boiadeiro australiano</string>
+        </property>
+        <property name="icon">
+         <iconset>
+          <normalon>:/Icones/Imagens Prints/boiadeiroaustraliano.jpg</normalon>
+         </iconset>
         </property>
        </item>
        <item>
         <property name="text">
          <string>Border collie</string>
         </property>
+        <property name="icon">
+         <iconset>
+          <normalon>:/Icones/Imagens Prints/Border-Collie-2-768x576.jpg</normalon>
+         </iconset>
+        </property>
        </item>
        <item>
         <property name="text">
          <string>Boston terrier</string>
+        </property>
+        <property name="icon">
+         <iconset>
+          <normalon>:/Icones/Imagens Prints/Bostonterrier.jpg</normalon>
+         </iconset>
         </property>
        </item>
        <item>
         <property name="text">
          <string>Boxer</string>
         </property>
+        <property name="icon">
+         <iconset>
+          <normalon>:/Icones/Imagens Prints/boxer.png</normalon>
+         </iconset>
+        </property>
        </item>
        <item>
         <property name="text">
          <string>Buldogue francês</string>
+        </property>
+        <property name="icon">
+         <iconset>
+          <normalon>:/Icones/Imagens Prints/Buldogue-france.jpg</normalon>
+         </iconset>
         </property>
        </item>
        <item>
         <property name="text">
          <string>Buldogue inglês</string>
         </property>
+        <property name="icon">
+         <iconset>
+          <normalon>:/Icones/Imagens Prints/buldogue-ingle.jpg</normalon>
+         </iconset>
+        </property>
        </item>
        <item>
         <property name="text">
          <string>Bull terrier</string>
+        </property>
+        <property name="icon">
+         <iconset>
+          <normalon>:/Icones/Imagens Prints/bullterrier.jpg</normalon>
+         </iconset>
         </property>
        </item>
        <item>
         <property name="text">
          <string>Cane corso</string>
         </property>
+        <property name="icon">
+         <iconset>
+          <normalon>:/Icones/Imagens Prints/cane_corso_preto-768x973.jpg</normalon>
+         </iconset>
+        </property>
        </item>
        <item>
         <property name="text">
          <string>Cavalier king charles spaniel</string>
+        </property>
+        <property name="icon">
+         <iconset>
+          <normalon>:/Icones/Imagens Prints/cavalierking.jpg</normalon>
+         </iconset>
         </property>
        </item>
        <item>
         <property name="text">
          <string>Chihuahua</string>
         </property>
+        <property name="icon">
+         <iconset>
+          <normalon>:/Icones/Imagens Prints/Chihuahua.jpg</normalon>
+         </iconset>
+        </property>
        </item>
        <item>
         <property name="text">
          <string>Chow chow</string>
+        </property>
+        <property name="icon">
+         <iconset>
+          <normalon>:/Icones/Imagens Prints/Chow-Chow.jpg</normalon>
+         </iconset>
         </property>
        </item>
        <item>
         <property name="text">
          <string>Cocker spaniel inglês</string>
         </property>
+        <property name="icon">
+         <iconset>
+          <normalon>:/Icones/Imagens Prints/cockersapniel.jpg</normalon>
+         </iconset>
+        </property>
        </item>
        <item>
         <property name="text">
          <string>Dachshund</string>
+        </property>
+        <property name="icon">
+         <iconset>
+          <normalon>:/Icones/Imagens Prints/dachshund.jpg</normalon>
+         </iconset>
         </property>
        </item>
        <item>
         <property name="text">
          <string>Dálmata</string>
         </property>
+        <property name="icon">
+         <iconset>
+          <normalon>:/Icones/Imagens Prints/dalmata.jpg</normalon>
+         </iconset>
+        </property>
        </item>
        <item>
         <property name="text">
          <string>Doberman</string>
+        </property>
+        <property name="icon">
+         <iconset>
+          <normalon>:/Icones/Imagens Prints/doberman.jpg</normalon>
+         </iconset>
         </property>
        </item>
        <item>
         <property name="text">
          <string>Dogo argentino</string>
         </property>
+        <property name="icon">
+         <iconset>
+          <normalon>:/Icones/Imagens Prints/dogo.jpg</normalon>
+         </iconset>
+        </property>
        </item>
        <item>
         <property name="text">
          <string>Dogue alemão</string>
+        </property>
+        <property name="icon">
+         <iconset>
+          <normalon>:/Icones/Imagens Prints/doguealemao.jpg</normalon>
+         </iconset>
         </property>
        </item>
        <item>
         <property name="text">
          <string>Fila brasileiro</string>
         </property>
+        <property name="icon">
+         <iconset>
+          <normalon>:/Icones/Imagens Prints/fila_brasileiro3-768x512.jpg</normalon>
+         </iconset>
+        </property>
        </item>
        <item>
         <property name="text">
          <string>Golden retriever</string>
+        </property>
+        <property name="icon">
+         <iconset>
+          <normalon>:/Icones/Imagens Prints/Golden-destaque-768x432.gif</normalon>
+         </iconset>
         </property>
        </item>
        <item>
         <property name="text">
          <string>Husky siberiano</string>
         </property>
+        <property name="icon">
+         <iconset resource="Imagens.qrc">
+          <normaloff>:/Imagens/husky-siberiano-2-768x512.png</normaloff>:/Imagens/husky-siberiano-2-768x512.png</iconset>
+        </property>
        </item>
        <item>
         <property name="text">
          <string>Jack russell terrier</string>
+        </property>
+        <property name="icon">
+         <iconset>
+          <normalon>:/Icones/Imagens Prints/jackrussell.jpg</normalon>
+         </iconset>
         </property>
        </item>
        <item>
         <property name="text">
          <string>Labrador retriever</string>
         </property>
+        <property name="icon">
+         <iconset>
+          <normalon>:/Icones/Imagens Prints/Labrador-6-768x576.jpg</normalon>
+         </iconset>
+        </property>
        </item>
        <item>
         <property name="text">
          <string>Lhasa apso</string>
+        </property>
+        <property name="icon">
+         <iconset>
+          <normalon>:/Icones/Imagens Prints/Lhasa-6-768x576.jpg</normalon>
+         </iconset>
         </property>
        </item>
        <item>
         <property name="text">
          <string>Lulu da Pomerânia</string>
         </property>
+        <property name="icon">
+         <iconset>
+          <normalon>:/Icones/Imagens Prints/lulu.jpg</normalon>
+         </iconset>
+        </property>
        </item>
        <item>
         <property name="text">
          <string>Maltês</string>
+        </property>
+        <property name="icon">
+         <iconset>
+          <normalon>:/Icones/Imagens Prints/maltes.jpg</normalon>
+         </iconset>
         </property>
        </item>
        <item>
         <property name="text">
          <string>Mastiff inglês</string>
         </property>
+        <property name="icon">
+         <iconset>
+          <normalon>:/Icones/Imagens Prints/mastiff4-768x491.jpg</normalon>
+         </iconset>
+        </property>
        </item>
        <item>
         <property name="text">
          <string>Mastim tibetano</string>
+        </property>
+        <property name="icon">
+         <iconset>
+          <normalon>:/Icones/Imagens Prints/mastim.jpg</normalon>
+         </iconset>
         </property>
        </item>
        <item>
         <property name="text">
          <string>Pastor alemão</string>
         </property>
+        <property name="icon">
+         <iconset>
+          <normalon>:/Icones/Imagens Prints/pastoralemao.jpg</normalon>
+         </iconset>
+        </property>
        </item>
        <item>
         <property name="text">
          <string>Pastor australiano</string>
+        </property>
+        <property name="icon">
+         <iconset>
+          <normalon>:/Icones/Imagens Prints/pastorautraliano.jpg</normalon>
+         </iconset>
         </property>
        </item>
        <item>
         <property name="text">
          <string>Pastor de Shetland</string>
         </property>
+        <property name="icon">
+         <iconset>
+          <normalon>:/Icones/Imagens Prints/pastor-de-shetland-8-768x512.png</normalon>
+         </iconset>
+        </property>
        </item>
        <item>
         <property name="text">
          <string>Pastor Maremano Abruzes</string>
+        </property>
+        <property name="icon">
+         <iconset>
+          <normalon>:/Icones/Imagens Prints/maremano-5-768x514.jpg</normalon>
+         </iconset>
         </property>
        </item>
        <item>
         <property name="text">
          <string>Pequinês</string>
         </property>
+        <property name="icon">
+         <iconset>
+          <normalon>:/Icones/Imagens Prints/pequines.jpg</normalon>
+         </iconset>
+        </property>
        </item>
        <item>
         <property name="text">
          <string>Pinscher miniatura</string>
+        </property>
+        <property name="icon">
+         <iconset>
+          <normalon>:/Icones/Imagens Prints/Pinscher-768x576.jpg</normalon>
+         </iconset>
         </property>
        </item>
        <item>
         <property name="text">
          <string>Pit bull</string>
         </property>
+        <property name="icon">
+         <iconset>
+          <normalon>:/Icones/Imagens Prints/pit bull.jpg</normalon>
+         </iconset>
+        </property>
        </item>
        <item>
         <property name="text">
          <string>Poodle</string>
+        </property>
+        <property name="icon">
+         <iconset>
+          <normalon>:/Icones/Imagens Prints/Poodle-4-768x576.jpg</normalon>
+         </iconset>
         </property>
        </item>
        <item>
         <property name="text">
          <string>Pug</string>
         </property>
+        <property name="icon">
+         <iconset>
+          <normalon>:/Icones/Imagens Prints/pug.jpg</normalon>
+         </iconset>
+        </property>
        </item>
        <item>
         <property name="text">
          <string>Rottweiler</string>
+        </property>
+        <property name="icon">
+         <iconset>
+          <normalon>:/Icones/Imagens Prints/rottweiler.jpg</normalon>
+         </iconset>
         </property>
        </item>
        <item>
         <property name="text">
          <string>Samoieda</string>
         </property>
+        <property name="icon">
+         <iconset>
+          <normalon>:/Icones/Imagens Prints/Samoieda-2-768x512.jpg</normalon>
+         </iconset>
+        </property>
        </item>
        <item>
         <property name="text">
          <string>Schnauzer</string>
+        </property>
+        <property name="icon">
+         <iconset>
+          <normalon>:/Icones/Imagens Prints/Schnauzer-2-768x576.jpg</normalon>
+         </iconset>
         </property>
        </item>
        <item>
         <property name="text">
          <string>Shiba</string>
         </property>
+        <property name="icon">
+         <iconset>
+          <normalon>:/Icones/Imagens Prints/shiba.jpg</normalon>
+         </iconset>
+        </property>
        </item>
        <item>
         <property name="text">
          <string>Shih tzu</string>
+        </property>
+        <property name="icon">
+         <iconset>
+          <normalon>:/Icones/Imagens Prints/shih-tzu-3-768x432.jpg</normalon>
+         </iconset>
         </property>
        </item>
        <item>
         <property name="text">
          <string>Staffordshire bull terrier</string>
         </property>
+        <property name="icon">
+         <iconset>
+          <normalon>:/Icones/Imagens Prints/staffordshire-na-grama-768x512.png</normalon>
+         </iconset>
+        </property>
        </item>
        <item>
         <property name="text">
          <string>Vira-lata</string>
+        </property>
+        <property name="icon">
+         <iconset>
+          <normalon>:/Icones/Imagens Prints/srd-768x511.jpg</normalon>
+         </iconset>
         </property>
        </item>
        <item>
         <property name="text">
          <string>Weimaraner</string>
         </property>
+        <property name="icon">
+         <iconset>
+          <normalon>:/Icones/Imagens Prints/weimaraner.jpg</normalon>
+         </iconset>
+        </property>
        </item>
        <item>
         <property name="text">
          <string>Whippet</string>
         </property>
+        <property name="icon">
+         <iconset>
+          <normalon>:/Icones/Imagens Prints/whippet-6-768x512.png</normalon>
+         </iconset>
+        </property>
        </item>
        <item>
         <property name="text">
          <string>Yorkshire terrier</string>
+        </property>
+        <property name="icon">
+         <iconset>
+          <normalon>:/Icones/Imagens Prints/yorkshire.jpg</normalon>
+         </iconset>
         </property>
        </item>
       </widget>
@@ -913,7 +1170,8 @@ color: rgb(0, 0, 0);</string>
          </rect>
         </property>
         <property name="styleSheet">
-         <string notr="true">image: url(:/Imagens/Imagens/logo a.png);</string>
+         <string notr="true">image: url(:/Imagens/Imagens/logo a.png);
+</string>
         </property>
         <property name="text">
          <string/>
@@ -982,315 +1240,6 @@ color: rgb(0, 0, 0);</string>
       <property name="frameShadow">
        <enum>QFrame::Raised</enum>
       </property>
-      <widget class="QFrame" name="frame_7">
-       <property name="geometry">
-        <rect>
-         <x>450</x>
-         <y>110</y>
-         <width>361</width>
-         <height>311</height>
-        </rect>
-       </property>
-       <property name="styleSheet">
-        <string notr="true">background-color: rgb(171, 232, 230);</string>
-       </property>
-       <property name="frameShape">
-        <enum>QFrame::StyledPanel</enum>
-       </property>
-       <property name="frameShadow">
-        <enum>QFrame::Raised</enum>
-       </property>
-       <widget class="QLabel" name="txt_vencedorPrimeiro">
-        <property name="geometry">
-         <rect>
-          <x>90</x>
-          <y>10</y>
-          <width>261</width>
-          <height>41</height>
-         </rect>
-        </property>
-        <property name="styleSheet">
-         <string notr="true">font: 75 16pt &quot;URW Bookman L&quot;;
-color: rgb(0, 0, 0);</string>
-        </property>
-        <property name="text">
-         <string/>
-        </property>
-       </widget>
-       <widget class="QLabel" name="label_5">
-        <property name="geometry">
-         <rect>
-          <x>20</x>
-          <y>20</y>
-          <width>41</width>
-          <height>16</height>
-         </rect>
-        </property>
-        <property name="styleSheet">
-         <string notr="true">font: 75 10pt &quot;URW Bookman L&quot;;
-color: rgb(0, 0, 0);</string>
-        </property>
-        <property name="text">
-         <string>Nome</string>
-        </property>
-       </widget>
-       <widget class="QLabel" name="label">
-        <property name="geometry">
-         <rect>
-          <x>20</x>
-          <y>80</y>
-          <width>41</width>
-          <height>16</height>
-         </rect>
-        </property>
-        <property name="styleSheet">
-         <string notr="true">font: 75 10pt &quot;URW Bookman L&quot;;
-color: rgb(0, 0, 0);</string>
-        </property>
-        <property name="text">
-         <string>Raça</string>
-        </property>
-       </widget>
-       <widget class="QLabel" name="txt_racavencedora">
-        <property name="geometry">
-         <rect>
-          <x>90</x>
-          <y>70</y>
-          <width>261</width>
-          <height>31</height>
-         </rect>
-        </property>
-        <property name="styleSheet">
-         <string notr="true">font: 75 12pt &quot;URW Bookman L&quot;;
-color: rgb(0, 0, 0);</string>
-        </property>
-        <property name="text">
-         <string/>
-        </property>
-       </widget>
-       <widget class="QLabel" name="primeiro">
-        <property name="geometry">
-         <rect>
-          <x>30</x>
-          <y>130</y>
-          <width>311</width>
-          <height>151</height>
-         </rect>
-        </property>
-        <property name="styleSheet">
-         <string notr="true">image: url(:/Imagens/Imagens/primeiro.png);</string>
-        </property>
-        <property name="text">
-         <string/>
-        </property>
-       </widget>
-      </widget>
-      <widget class="QFrame" name="frame_15">
-       <property name="geometry">
-        <rect>
-         <x>810</x>
-         <y>210</y>
-         <width>361</width>
-         <height>211</height>
-        </rect>
-       </property>
-       <property name="styleSheet">
-        <string notr="true">background-color: rgb(171, 232, 230);</string>
-       </property>
-       <property name="frameShape">
-        <enum>QFrame::StyledPanel</enum>
-       </property>
-       <property name="frameShadow">
-        <enum>QFrame::Raised</enum>
-       </property>
-       <widget class="QLabel" name="TerceiroLugar">
-        <property name="geometry">
-         <rect>
-          <x>120</x>
-          <y>90</y>
-          <width>141</width>
-          <height>111</height>
-         </rect>
-        </property>
-        <property name="styleSheet">
-         <string notr="true">image: url(:/Imagens/Imagens/terceiro.png);</string>
-        </property>
-        <property name="text">
-         <string/>
-        </property>
-       </widget>
-       <widget class="QLabel" name="txt_racaTerceiro">
-        <property name="geometry">
-         <rect>
-          <x>70</x>
-          <y>60</y>
-          <width>261</width>
-          <height>31</height>
-         </rect>
-        </property>
-        <property name="styleSheet">
-         <string notr="true">font: 75 12pt &quot;URW Bookman L&quot;;
-color: rgb(0, 0, 0);</string>
-        </property>
-        <property name="text">
-         <string/>
-        </property>
-       </widget>
-       <widget class="QLabel" name="label_12">
-        <property name="geometry">
-         <rect>
-          <x>10</x>
-          <y>70</y>
-          <width>58</width>
-          <height>16</height>
-         </rect>
-        </property>
-        <property name="styleSheet">
-         <string notr="true">font: 75 10pt &quot;URW Bookman L&quot;;
-color: rgb(0, 0, 0);</string>
-        </property>
-        <property name="text">
-         <string>Raça</string>
-        </property>
-       </widget>
-       <widget class="QLabel" name="label_11">
-        <property name="geometry">
-         <rect>
-          <x>10</x>
-          <y>20</y>
-          <width>41</width>
-          <height>16</height>
-         </rect>
-        </property>
-        <property name="styleSheet">
-         <string notr="true">font: 75 10pt &quot;URW Bookman L&quot;;
-color: rgb(0, 0, 0);</string>
-        </property>
-        <property name="text">
-         <string>Nome</string>
-        </property>
-       </widget>
-       <widget class="QLabel" name="txt_vencedorTerceiro">
-        <property name="geometry">
-         <rect>
-          <x>70</x>
-          <y>10</y>
-          <width>261</width>
-          <height>41</height>
-         </rect>
-        </property>
-        <property name="styleSheet">
-         <string notr="true">font: 75 16pt &quot;URW Bookman L&quot;;
-color: rgb(0, 0, 0);</string>
-        </property>
-        <property name="text">
-         <string/>
-        </property>
-       </widget>
-      </widget>
-      <widget class="QFrame" name="frame_13">
-       <property name="geometry">
-        <rect>
-         <x>90</x>
-         <y>180</y>
-         <width>361</width>
-         <height>241</height>
-        </rect>
-       </property>
-       <property name="styleSheet">
-        <string notr="true">background-color: rgb(171, 232, 230);</string>
-       </property>
-       <property name="frameShape">
-        <enum>QFrame::StyledPanel</enum>
-       </property>
-       <property name="frameShadow">
-        <enum>QFrame::Raised</enum>
-       </property>
-       <widget class="QLabel" name="Segundolugar">
-        <property name="geometry">
-         <rect>
-          <x>110</x>
-          <y>100</y>
-          <width>151</width>
-          <height>131</height>
-         </rect>
-        </property>
-        <property name="styleSheet">
-         <string notr="true">image: url(:/Imagens/Imagens/segundo.png);</string>
-        </property>
-        <property name="text">
-         <string/>
-        </property>
-       </widget>
-       <widget class="QLabel" name="txt_vencedorSegundo">
-        <property name="geometry">
-         <rect>
-          <x>80</x>
-          <y>10</y>
-          <width>261</width>
-          <height>41</height>
-         </rect>
-        </property>
-        <property name="styleSheet">
-         <string notr="true">font: 75 16pt &quot;URW Bookman L&quot;;
-color: rgb(0, 0, 0);</string>
-        </property>
-        <property name="text">
-         <string/>
-        </property>
-       </widget>
-       <widget class="QLabel" name="label_9">
-        <property name="geometry">
-         <rect>
-          <x>20</x>
-          <y>20</y>
-          <width>41</width>
-          <height>16</height>
-         </rect>
-        </property>
-        <property name="styleSheet">
-         <string notr="true">font: 75 10pt &quot;URW Bookman L&quot;;
-color: rgb(0, 0, 0);</string>
-        </property>
-        <property name="text">
-         <string>Nome</string>
-        </property>
-       </widget>
-       <widget class="QLabel" name="label_10">
-        <property name="geometry">
-         <rect>
-          <x>20</x>
-          <y>80</y>
-          <width>58</width>
-          <height>16</height>
-         </rect>
-        </property>
-        <property name="styleSheet">
-         <string notr="true">font: 75 10pt &quot;URW Bookman L&quot;;
-color: rgb(0, 0, 0);</string>
-        </property>
-        <property name="text">
-         <string>Raça</string>
-        </property>
-       </widget>
-       <widget class="QLabel" name="txt_racaSegunda">
-        <property name="geometry">
-         <rect>
-          <x>80</x>
-          <y>80</y>
-          <width>261</width>
-          <height>21</height>
-         </rect>
-        </property>
-        <property name="styleSheet">
-         <string notr="true">font: 75 12pt &quot;URW Bookman L&quot;;
-color: rgb(0, 0, 0);</string>
-        </property>
-        <property name="text">
-         <string/>
-        </property>
-       </widget>
-      </widget>
       <widget class="QPushButton" name="btn_atualizar">
        <property name="geometry">
         <rect>
@@ -1331,7 +1280,7 @@ color: rgb(255, 255, 255);</string>
        <widget class="QLabel" name="generofeminino">
         <property name="geometry">
          <rect>
-          <x>80</x>
+          <x>110</x>
           <y>60</y>
           <width>111</width>
           <height>101</height>
@@ -1382,7 +1331,7 @@ color: rgb(255, 255, 255);</string>
        <widget class="QLabel" name="generomasculino">
         <property name="geometry">
          <rect>
-          <x>80</x>
+          <x>110</x>
           <y>70</y>
           <width>111</width>
           <height>91</height>
@@ -1433,7 +1382,7 @@ color: rgb(255, 255, 255);</string>
        <widget class="QLabel" name="txt_mediaidade">
         <property name="geometry">
          <rect>
-          <x>30</x>
+          <x>60</x>
           <y>70</y>
           <width>211</width>
           <height>91</height>
@@ -1463,13 +1412,243 @@ color: rgb(255, 255, 255);</string>
         </property>
        </widget>
       </widget>
+      <widget class="QLabel" name="label_6">
+       <property name="geometry">
+        <rect>
+         <x>130</x>
+         <y>90</y>
+         <width>1011</width>
+         <height>371</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">image: url(:/Icones/Imagens/podio2.png);</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_11">
+       <property name="geometry">
+        <rect>
+         <x>950</x>
+         <y>210</y>
+         <width>41</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 75 10pt &quot;URW Bookman L&quot;;
+color: rgb(0, 0, 0);</string>
+       </property>
+       <property name="text">
+        <string>Nome</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="txt_vencedorTerceiro">
+       <property name="geometry">
+        <rect>
+         <x>920</x>
+         <y>170</y>
+         <width>261</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 75 24pt &quot;URW Bookman L&quot;;
+color: rgb(0, 0, 0);</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="txt_racaTerceiro">
+       <property name="geometry">
+        <rect>
+         <x>920</x>
+         <y>230</y>
+         <width>261</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 75 12pt &quot;URW Bookman L&quot;;
+color: rgb(0, 0, 0);</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_12">
+       <property name="geometry">
+        <rect>
+         <x>950</x>
+         <y>260</y>
+         <width>58</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 75 10pt &quot;URW Bookman L&quot;;
+color: rgb(0, 0, 0);</string>
+       </property>
+       <property name="text">
+        <string>Raça</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="txt_racavencedora">
+       <property name="geometry">
+        <rect>
+         <x>630</x>
+         <y>140</y>
+         <width>261</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 75 12pt &quot;URW Bookman L&quot;;
+color: rgb(0, 0, 0);</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_5">
+       <property name="geometry">
+        <rect>
+         <x>650</x>
+         <y>120</y>
+         <width>41</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 75 10pt &quot;URW Bookman L&quot;;
+color: rgb(0, 0, 0);</string>
+       </property>
+       <property name="text">
+        <string>Nome</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="txt_vencedorPrimeiro">
+       <property name="geometry">
+        <rect>
+         <x>580</x>
+         <y>80</y>
+         <width>261</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 75 24pt &quot;URW Bookman L&quot;;
+color: rgb(0, 0, 0);</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label">
+       <property name="geometry">
+        <rect>
+         <x>650</x>
+         <y>170</y>
+         <width>41</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 75 10pt &quot;URW Bookman L&quot;;
+color: rgb(0, 0, 0);</string>
+       </property>
+       <property name="text">
+        <string>Raça</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="txt_racaSegunda">
+       <property name="geometry">
+        <rect>
+         <x>270</x>
+         <y>210</y>
+         <width>201</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 75 12pt &quot;URW Bookman L&quot;;
+color: rgb(0, 0, 0);</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_10">
+       <property name="geometry">
+        <rect>
+         <x>340</x>
+         <y>230</y>
+         <width>58</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 75 10pt &quot;URW Bookman L&quot;;
+color: rgb(0, 0, 0);</string>
+       </property>
+       <property name="text">
+        <string>Raça</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="txt_vencedorSegundo">
+       <property name="geometry">
+        <rect>
+         <x>270</x>
+         <y>140</y>
+         <width>261</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 75 24pt &quot;URW Bookman L&quot;;
+color: rgb(0, 0, 0);</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_9">
+       <property name="geometry">
+        <rect>
+         <x>340</x>
+         <y>180</y>
+         <width>41</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 75 10pt &quot;URW Bookman L&quot;;
+color: rgb(0, 0, 0);</string>
+       </property>
+       <property name="text">
+        <string>Nome</string>
+       </property>
+      </widget>
+      <zorder>label_6</zorder>
       <zorder>frame_10</zorder>
       <zorder>frame_9</zorder>
       <zorder>frame_8</zorder>
-      <zorder>frame_13</zorder>
-      <zorder>frame_7</zorder>
-      <zorder>frame_15</zorder>
       <zorder>btn_atualizar</zorder>
+      <zorder>label_11</zorder>
+      <zorder>txt_vencedorTerceiro</zorder>
+      <zorder>txt_racaTerceiro</zorder>
+      <zorder>label_12</zorder>
+      <zorder>txt_racavencedora</zorder>
+      <zorder>label_5</zorder>
+      <zorder>txt_vencedorPrimeiro</zorder>
+      <zorder>label</zorder>
+      <zorder>txt_racaSegunda</zorder>
+      <zorder>label_10</zorder>
+      <zorder>txt_vencedorSegundo</zorder>
+      <zorder>label_9</zorder>
      </widget>
     </widget>
    </widget>
@@ -1503,6 +1682,9 @@ color: rgb(255, 255, 255);</string>
    <property name="text">
     <string>Salvar</string>
    </property>
+   <property name="shortcut">
+    <string>Ctrl+S</string>
+   </property>
   </action>
   <action name="actionCarregar">
    <property name="icon">
@@ -1511,6 +1693,9 @@ color: rgb(255, 255, 255);</string>
    </property>
    <property name="text">
     <string>Carregar</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+O</string>
    </property>
   </action>
   <action name="actionSair">
@@ -1521,13 +1706,21 @@ color: rgb(255, 255, 255);</string>
    <property name="text">
     <string>Sair</string>
    </property>
+   <property name="shortcut">
+    <string>Ctrl+Q</string>
+   </property>
   </action>
   <action name="actionLimpar_Tabela">
    <property name="text">
     <string>Limpar Tabela</string>
    </property>
+   <property name="shortcut">
+    <string>Ctrl+L</string>
+   </property>
   </action>
  </widget>
- <resources/>
+ <resources>
+  <include location="Imagens.qrc"/>
+ </resources>
  <connections/>
 </ui>

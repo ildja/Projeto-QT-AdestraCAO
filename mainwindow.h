@@ -27,11 +27,9 @@ class MainWindow : public QMainWindow
 
 public:
     explicit MainWindow(QWidget *parent = nullptr);
-   /* void atualizarVencedores();*/
     ~MainWindow();
 
     Classificador a;
-    //Arquivo ar;
 
 private slots:
     void on_btn_inserirDados_clicked();
@@ -43,10 +41,7 @@ private slots:
     void on_actionCarregar_triggered();
     void on_actionSair_triggered();
     void on_actionLimpar_Tabela_triggered();
-
     void on_ExcluirDados_clicked();
-
-
 
 private:
     Ui::MainWindow *ui;

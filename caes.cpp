@@ -5,7 +5,9 @@ bool Caes::setNome(const QString &value)
     if(value.size()>2){
         nome = value;
         return false;
-    }else return true;
+    }else{
+        return true;
+    }
 }
 
 QString Caes::getNome() const
@@ -48,7 +50,9 @@ bool Caes::setResponsavel(const QString &value)
     if(value.size()>2){
        responsavel = value;
         return false;
-    }else return true;
+    }else{
+        return true;
+    }
 }
 
 QString Caes::getResponsavel() const
@@ -61,7 +65,9 @@ bool Caes::setAdestrador(const QString &value)
     if(value.size()>2){
        adestrador = value;
         return false;
-    }else return true;
+    }else{
+        return true;
+    }
 }
 
 QString Caes::getAdestrador() const
@@ -74,7 +80,9 @@ bool Caes::setAvaliador1(const QString &value)
     if(value.size()>2){
         avaliador1 = value;
         return false;
-    }else return true;
+    }else{
+        return true;
+    }
 }
 
 QString Caes::getAvaliador1() const
@@ -87,7 +95,9 @@ bool Caes::setAvaliador2(const QString &value)
     if(value.size()>2){
        avaliador2 = value;
         return false;
-    }else return true;
+    }else{
+        return true;
+    }
 }
 
 QString Caes::getAvaliador2() const

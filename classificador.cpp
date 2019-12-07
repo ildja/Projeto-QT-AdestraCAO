@@ -124,7 +124,6 @@ void Classificador::eraseNome(QString txt, Classificador a)
 void Classificador::mudarObjeto(int l, int c, QString n)
 {
     switch(c){
-
     case 0:
         lista[l].setNome(n);
         break;
@@ -183,11 +182,6 @@ int Classificador::size()
 {
     return lista.size();
 }
-
-/*void Classificador::erase(int index)
-{
-    lista.erase(lista.begin()+index);
-}*/
 
 Caes Classificador::find(int index)
 {
